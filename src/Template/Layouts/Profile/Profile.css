@@ -1,0 +1,145 @@
+.profile {
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../../../images/banner3.jpg);
+}
+
+.profile_main {
+    width: 70%;
+    margin: 0px auto;
+    padding: 70px 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.profile_main h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+
+.profile_main p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+.my_profile {
+    width: 20%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.image_profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+.image_profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name_profile h2 {
+    font-family: "Open Sans",
+        sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgb(79, 79, 79);
+    font-weight: bold;
+}
+
+.name_profile p {
+    font-family: "Open Sans",
+        sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.2;
+    color: rgb(171, 171, 171);
+}
+
+.phone_profile {
+    width: 53%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone_profile i {
+    font-size: 25px;
+    color: rgb(171, 171, 171);
+}
+
+.media_profile {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.media_profile a {
+    font-size: 45px;
+    padding: 10px 0px;
+}
+
+@media (max-width:1025px) {
+    .my_profile {
+        width: 25%;
+    }
+
+    .phone_profile {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .my_profile {
+        width: 35%;
+    }
+
+    .phone_profile {
+        font-size: 14px;
+    }
+
+    .profile {
+        height: 700px !important;
+    }
+}
+
+@media (max-width:431px) {
+    .profile {
+        height: 600px !important;
+    }
+
+    .my_profile {
+        width: 50%;
+    }
+
+    .profile_main h2 {
+        font-size: 20px;
+    }
+
+    .phone_profile {
+        font-size: 11px;
+    }
+
+    .phone_profile i {
+        font-size: 17px;
+    }
+
+    .media_profile a {
+        font-size: 30px;
+    }
+}
