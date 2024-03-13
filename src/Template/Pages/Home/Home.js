@@ -51,13 +51,10 @@ function Home() {
                     <div className='text_profile'>
                         <div className='item_text'>
                             <h2>Amazing Features</h2>
-                            <h4><i class="fa-solid fa-layer-group"></i> Interiors that look natural</h4>
+                            <h4><i className="fa-solid fa-layer-group"></i> Interiors that look natural</h4>
                             <p>Real Home themes that provide various templates to fill the needs of real estate agents</p>
-                            <h4><i class="fa-solid fa-layer-group"></i> Customer Care</h4>
+                            <h4><i className="fa-solid fa-layer-group"></i> Customer Care</h4>
                             <p>Premium consulting available 24/7</p>
-                        </div>
-                        <div className='img_home'>
-
                         </div>
                     </div>
                 </div>

@@ -1,13 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom'; // Loại bỏ dòng import thừa
+import { createRoot } from 'react-dom/client'; // Corrected import statement
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container); // Create a root.
+
+root.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+  </BrowserRouter>
 );
